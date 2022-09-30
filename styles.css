@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight");
+
+:root {
+  --background: #f3f4f6;
+  --darkcolor: #374151;
+  --lighttext: #f9fafb;
+  --darkblue: #0c4a6e;
+  --hoverblue: rgb(12, 74, 110);
+}
+
+html {
+  background-color: var(--background);
+}
+
+body {
+  font-family: "Inter Tight";
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--darkcolor);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--lighttext);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--darkcolor);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex: 1;
+}
+
+.addbook {
+  background-color: var(--darkblue);
+  color: var(--lighttext);
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.addbook:hover {
+  background-color: rgba(12, 74, 110, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footercontent {
+  display: flex;
+  color: var(--lighttext);
+  align-items: center;
+  gap: 5px;
+}
+
+a {
+  color: white;
+}
