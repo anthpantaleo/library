@@ -9,8 +9,8 @@ let myLibrary = [
   {
     booktitle: "The Way of Kings",
     author: "Brandon Sanderson",
-    pages: "1234",
-    read: "off",
+    pages: "1007",
+    read: "on",
   },
 ];
 
