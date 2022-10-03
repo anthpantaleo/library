@@ -23,18 +23,18 @@
           <h2>Add Book</h2>
           <button class="exit">X</button>
         </div>
-        <form action="form" method="dialog">
+        <form action="form" method="dialog" class="form">
           <div class="title-input">
             <label for="book-title form-title">Book Title</label
-            ><input type="text" name="book-title" id="book-title" />
+            ><input type="text" name="booktitle" id="booktitle" required />
           </div>
           <div class="author-input">
             <label for="author">Author</label
-            ><input type="text" name="author" id="author" />
+            ><input type="text" name="author" id="author" required />
           </div>
           <div class="pages-input">
             <label for="pages">Pages</label>
-            <input type="number" name="pages" id="pages" />
+            <input type="number" name="pages" id="pages" required />
           </div>
           <div class="read-input">
             <label for="read">Read</label>
@@ -46,6 +46,7 @@
         </form>
       </div>
     </dialog>
+    <div class="library"></div>
     <!-- Footer -->
     <div class="footer">
       <div class="footercontent">

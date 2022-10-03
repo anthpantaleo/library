@@ -18,7 +18,7 @@ body {
 
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 10px;
   background-color: var(--darkcolor);
 }
@@ -168,4 +168,76 @@ h2 {
 
 a {
   color: white;
+}
+
+.library {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid red;
+  height: 125px;
+  background-color: var(--darkcolor);
+  color: white;
+  border-radius: 10px;
+  border: 2px solid var(--darkblue);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 8px;
+}
+
+button {
+  background-color: var(--darkblue);
+  color: var(--lighttext);
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+button.read {
+  background-color: green;
+}
+
+button,
+.notread {
+  background-color: crimson;
+}
+
+button,
+.remove {
+  background-color: crimson;
+}
+
+.bookcardtitle {
+  font-weight: bold;
+  font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+  .library {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .library {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+  }
+  .book {
+    width: 275px;
+  }
 }
