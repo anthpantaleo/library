@@ -7,3 +7,6 @@ There is the ability to add books, remove them, and change their marked status. 
 Live : https://anthpantaleo.github.io/library/
 
 Code: https://github.com/anthpantaleo/library
+
+
+Made with lots of love!
