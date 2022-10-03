@@ -5,4 +5,5 @@ This is the first iteration of a library application. Made while working through
 There is the ability to add books, remove them, and change their marked status. In the future I will work on making them editable from a modal as well as work on local storage.
 
 Live : https://anthpantaleo.github.io/library/
+
 Code: https://github.com/anthpantaleo/library
